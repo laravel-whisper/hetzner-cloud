@@ -1,4 +1,4 @@
-# Hetzner Cloud Whisper Driver
+# 🚀 Hetzner Cloud Whisper Driver
 
 [![Build Status](https://scrutinizer-ci.com/g/laravel-whisper/hetzner-cloud/badges/build.png?b=master)](https://scrutinizer-ci.com/g/laravel-whisper/hetzner-cloud/build-status/master)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/laravel-whisper/hetzner-cloud.svg?style=flat-square)](https://packagist.org/packages/laravel-whisper/hetzner-cloud)
