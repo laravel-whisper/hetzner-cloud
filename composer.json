@@ -1,0 +1,45 @@
+{
+  "name": "laravel-whisper/hetzner-cloud",
+  "description": "Hetzner Cloud Whisper Driver",
+  "keywords": ["php7", "laravel", "hetzner", "driver", "ORM", "API", "REST"],
+  "license": "MIT",
+
+  "authors": [
+    {
+      "name": "Sergio Ródenas",
+      "homepage": "https://rodenastyle.com",
+      "role": "developer"
+    }
+  ],
+
+  "require": {
+    "php": "^7.0",
+    "kitetail/zttp": "^0.3.0",
+    "laravel-whisper/whisper": "^0.1.4"
+  },
+
+  "require-dev": {
+    "mockery/mockery": "^0.9.9",
+    "phpunit/phpunit": "^6.0"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Whisper\\HetznerCloud\\": "src"
+    }
+  },
+
+  "autoload-dev": {
+    "psr-4": {
+      "Whisper\\HetznerCloud\\Test\\": "tests"
+    }
+  },
+
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+
+  "config": {
+    "sort-packages": true
+  }
+}
