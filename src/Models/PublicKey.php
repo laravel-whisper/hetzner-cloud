@@ -6,6 +6,8 @@
  * Time: 18:17
  */
 
+namespace Whisper\HetznerCloud\Models;
+
 use LaravelWhisper\Whisper\Whisperer;
 
 class PublicKey extends Whisperer

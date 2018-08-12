@@ -6,9 +6,13 @@
  * Time: 18:16
  */
 
+namespace Whisper\HetznerCloud\Models;
+
 use LaravelWhisper\Whisper\Whisperer;
+use Whisper\HetznerCloud\Clients\Server as ServerClient;
 
 class Server extends Whisperer
 {
-	public static $uri = 'servers';
+	public static $client = ServerClient::class;
+	public $guarded = [];
 }
